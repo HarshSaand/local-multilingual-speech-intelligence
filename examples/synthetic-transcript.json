@@ -1,0 +1,20 @@
+{
+  "source": "synthetic-demo.wav",
+  "language": "en",
+  "task": "transcribe",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.1,
+      "speaker": "Speaker 1",
+      "text": "Hello, I am calling about a delivery update."
+    },
+    {
+      "start": 2.2,
+      "end": 4.8,
+      "speaker": "Speaker 2",
+      "text": "I can help with that. What information do you have?"
+    }
+  ]
+}
+
