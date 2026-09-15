@@ -1,5 +1,20 @@
 # Local Multilingual Speech Intelligence
 
+## Inspect an actual output
+
+![Audio becomes a timestamped transcript you can inspect](docs/output-showcase.png)
+
+Fresh faster-whisper tiny CPU/int8 inference on synthetic English speech. No customer audio. This sample does not establish multilingual accuracy or diarization performance; the transcript is unedited.
+
+[Open the result record](docs/output-example.json) · [Open the HTML report](docs/output-showcase.html)
+
+Reproduce the underlying output:
+
+```sh
+python local_speech_intelligence.py docs/input-demo.wav --model tiny --device cpu --compute-type int8 --out-dir docs/transcript
+```
+
+
 A privacy-conscious reference pipeline for running multilingual speech recognition locally. It can transcribe source-language audio, translate supported speech to English, attach optional speaker labels, and export plain text, JSON, and accessible HTML.
 
 This repository is a portfolio-safe reference implementation. It contains no employer source code, recordings, customer transcripts, identifiers, private vocabulary, or production configuration.

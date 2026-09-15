@@ -1,0 +1,25 @@
+{
+  "source": "input-demo.wav",
+  "language": "en",
+  "task": "transcribe",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.84,
+      "text": "This is a synthetic portfolio demonstration.",
+      "speaker": "Transcript"
+    },
+    {
+      "start": 2.84,
+      "end": 4.92,
+      "text": "The way for inspection is complete.",
+      "speaker": "Transcript"
+    },
+    {
+      "start": 4.92,
+      "end": 8.52,
+      "text": "Please review the defect mask before approving the next experiment.",
+      "speaker": "Transcript"
+    }
+  ]
+}
